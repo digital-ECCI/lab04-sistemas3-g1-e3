@@ -8,6 +8,8 @@ Camilo Chavista\
 Brayan Dueñas
 
 ## Documentación
+---
+
 
 ## Visualización de datos en Raspberry Pi con Node-RED
 
@@ -15,7 +17,6 @@ Brayan Dueñas
 
 Node-RED es una herramienta de programación basada en flujos que permite desarrollar aplicaciones mediante la conexión visual de nodos. En este proyecto se implementa un flujo que permite seleccionar un color desde una interfaz gráfica, procesarlo y almacenarlo en un archivo, permitiendo además su visualización en tiempo real.
 
----
 
 ##  Objetivos
 
@@ -28,7 +29,6 @@ Desarrollar un flujo en Node-RED que permita la captura, procesamiento y almacen
 - Visualizar datos en tiempo real.
 - Almacenar la información en un archivo local.
 
----
 
 ##  Herramientas Utilizadas
 
@@ -36,7 +36,7 @@ Desarrollar un flujo en Node-RED que permita la captura, procesamiento y almacen
 - node-red-dashboard  
 - Navegador web  
 
----
+
 
 ##  Arquitectura del Flujo
 
@@ -46,7 +46,7 @@ A continuación se muestra el flujo implementado:
 
 El flujo sigue una estructura lineal con ramificaciones para visualización y almacenamiento de datos.
 
----
+
 
 ##  Implementación
 
@@ -56,7 +56,7 @@ Se accedió a Node-RED desde: http://10.79.144.165:1880
 
 Posteriormente, se instaló el paquete **node-red-dashboard** desde la opción *Manage Palette*.
 
----
+
 
 ### 2. Creación del Flujo
 
@@ -68,17 +68,18 @@ Se creó una nueva pestaña (flow) y se añadieron los siguientes nodos:
 - Write File  
 - Debug  
 
----
+
 
 ### 3. Configuración de Nodos
 
 ####  Color Picker
 Permite seleccionar un color desde la interfaz gráfica, generando un valor en formato HEX.
 
+---
 
 ## Conclusiones
 
--Node-RED facilita el desarrollo de aplicaciones mediante programación visual.
--El uso del Dashboard permite crear interfaces interactivas de forma sencilla.
--La modularidad de los nodos permite ampliar fácilmente el sistema.
+-Node-RED facilita el desarrollo de aplicaciones mediante programación visual.\
+-El uso del Dashboard permite crear interfaces interactivas de forma sencilla.\
+-La modularidad de los nodos permite ampliar fácilmente el sistema.\
 -Este tipo de implementación es útil en aplicaciones IoT y automatización.
