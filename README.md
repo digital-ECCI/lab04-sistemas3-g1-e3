@@ -42,7 +42,7 @@ Desarrollar un flujo en Node-RED que permita la captura, procesamiento y almacen
 
 A continuación se muestra el flujo implementado:
 
-![Flujo Node-RED](img/flujo.png)
+![Flujo Node-RED](D.Colores.png)
 
 El flujo sigue una estructura lineal con ramificaciones para visualización y almacenamiento de datos.
 
